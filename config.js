@@ -1,7 +1,7 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["50498798682@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '50498798682' 
 // mude para seu numero
 
 const gimagenotregister = true
@@ -23,7 +23,7 @@ const byemsgimg = (numero, groupname) => {
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nAo menu do Brizas-bot`
+    return `hola ${numero}\n\n no hagas spam`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -45,7 +45,7 @@ const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário 
 
 // MENSAGENS DE BAN
 
-const banmsgtype = '*Corra membro comum, o ban estar próximo*'
+const banmsgtype = '*_Eliminado_*'
 // mensagem de ban no anti tipos de mensagem
 
 const adminmsgtype = '*Tu é adm ent n vou te banir por mandar um tipo de mensagem proibida*'
@@ -57,10 +57,10 @@ const banmsgporn = 'Hmmm pornozinho com antiporn ativado, ja sabe né...'
 const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Corra Membro comum, O ban está próximo...'
+const banmsglink = '*_Eliminado_*'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Isso é um link amigo... ah é tu é adm ent pode kkkk 🙃'
+const adminmsglink = 'Los enlaces entan prohibidos en este grupo, admin detectado'
 // mensagem de quando adm manda link
 
 const adminmsgpalavra = 'isso esta na lista das palavras proibidas pelo bot'
@@ -89,7 +89,7 @@ const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = '*_Comando no registrado, realizando la búsqueda con los servidores de Google_*'
 // mensagem de erro
 
 const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
@@ -113,7 +113,7 @@ const numbotfeio = 'senhora sua mãe 😡'
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
+    wait: '⌛ Aguarde un poco... ⌛',
     success: '✔️ Sucesso! ✔️',
     error: {
         stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
@@ -123,7 +123,7 @@ let mess = {
         group: '❌ Este comando só pode ser usado em grupos! ❌',
         ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
         ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
+        admin: 'Acceso denegado, solo abedesco al admin',
         Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
     }
 }
@@ -132,9 +132,9 @@ let mess = {
 
 const vcard = 'BEGIN:VCARD\n' 
 + 'VERSION:3.0\n' 
-+ 'FN:Meu criador^~^\n' 
++ 'FN:Edar504🎩\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=50598798682:+504 9879-8682\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde

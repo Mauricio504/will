@@ -11,13 +11,13 @@ const sgooglenotregister = true
 // quando não há comando registrado o bot procura uma pesquisa no google
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
+    return `Nuevo usuario ${numero}\n\n Bienvenido ${prefix}`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
-    return `Adeus ${numero}`
+    return `Adios ${numero} bueno para nada`
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -60,7 +60,7 @@ const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
 const banmsglink = '*_Eliminado_*'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Los enlaces entan prohibidos en este grupo, admin detectado'
+const adminmsglink = '*_Los enlaces entan prohibidos en este grupo, admin detectado_*'
 // mensagem de quando adm manda link
 
 const adminmsgpalavra = 'isso esta na lista das palavras proibidas pelo bot'
@@ -120,11 +120,11 @@ let mess = {
         Iv: '❌ Link inválido ❌'
     },
     only: {
-        group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: 'Acceso denegado, solo obedesco al admin',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        group: '❌ Este comando solo puede ser usado en grupos! ❌',
+        ownerG: '❌ Este comando solo puede ser usado por el credor del grupo! ❌',
+        ownerB: '❌ Este comando solo puede ser usado por el número proprietário! ❌',
+        admin: '*_Acceso denegado, solo obedesco al admin_*',
+        Badmin: '❌ Este comando solo puede ser usado cuando el bot se toma de administrador! ❌'
     }
 }
 
@@ -134,7 +134,7 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Edar504🎩\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=50598798682:+504 9879-8682\n' 
++ 'TEL;type=CELL;type=VOICE;waid=50498798682:+504 9879-8682\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde

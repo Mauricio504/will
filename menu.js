@@ -8,7 +8,7 @@ return `┏🔥࿗Comandos infinitos࿗🔥┓
 ࿇ ════━━━━━✥◈✥━━━━━════ ࿇
 
 || ${p} play _nombre de la canción_
-|| & {p} welcome`
+|| ${p} welcome`
 }
 
 exports.help = help

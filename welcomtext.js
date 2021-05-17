@@ -1,5 +1,6 @@
-const welcome = (number, groupname) => {
-    return `_👋¡Hola! *@${number}* te doy la bienvenida a *${groupname}* recuerda siempre seguir la reglas y mantener una formalidad respetuosa *(Solo🔥Activos)*_`
+const welcome = (number, groupname, groupdesk) => {
+    return `_👋¡Hola! *@${number}* te doy la bienvenida a *${groupname}* recuerda siempre seguir la reglas y mantener una formalidad respetuosa *(Solo🔥Activos)*_
+${groupdesk} `
 }
 exports.welcome = welcome
 

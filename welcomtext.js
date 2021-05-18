@@ -1,4 +1,4 @@
-const mdata = await samu330.groupMetadata(anu.jid)
+const mdata = await client.groupMetadata(anu.jid)
 const samudesc = `${mdata.subject}`
 const samYperry = '```' 
 const welcome = (number, groupname) => {
